@@ -46,10 +46,28 @@ nav {
   text-align: center;
 }
 
+.container h2 {
+  background-color: black;
+  color: snow;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+.color {
+  color: lightgreen;
+}
+
 .btn-hero {
   background-color: transparent;
+  color: black;
   font-size: 1.4rem;
   margin-top: 1.5rem;
   padding: 0.5rem;
   border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-hero:hover {
+  color: white;
+  background-color: black;
 }
